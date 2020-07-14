@@ -7,6 +7,9 @@ TagManager:
   - nectar
   - flower_plant
   - boundary
+  - baby
+  - fish
+  - Penguins-HafsaBatool
   layers:
   - Default
   - TransparentFX
