@@ -6,12 +6,21 @@ using UnityEngine.UI;
 
 public class menuController : MonoBehaviour
 {
-   public void playPenguin()
+   public void navi_mlagent()
     {
-        SceneManager.LoadScene("Penguins");
+        SceneManager.LoadScene("Ml_agents");
     }
-    public void playHummingbird()
+    public void navi_Cmodel()
     {
-        SceneManager.LoadScene("FlowerIsland");
+        SceneManager.LoadScene("compu_models");
     }
+    public void navi_matc_paren()
+    {
+        SceneManager.LoadScene("matching_paran");
+    }
+    public void navi_return()
+    {
+        SceneManager.LoadScene("final_return");
+    }
+
 }
